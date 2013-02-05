@@ -1,5 +1,5 @@
 (function($, doc) {
-if ( !("placeholder" in document.createElement("input")) ) {
+if ( !("placeholder" in doc.createElement("input")) ) {
     $(function() {
         // On focus, remove the placeholder text and change the input color
         $("[placeholder]").on("focus", function() {
